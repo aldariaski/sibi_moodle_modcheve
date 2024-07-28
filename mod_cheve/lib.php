@@ -116,6 +116,8 @@ function cheve_add_instance(stdClass $cheve, mod_cheve_mod_form $mform = null) {
             'lecturemajor' => $cheve->lecturemajor,
             'filehash' => $fhash,
             'url' => $url,
+	    'asr' => 'Google',
+	    'subtitle' => '',
         );
 
         $json_data = json_encode($data);
