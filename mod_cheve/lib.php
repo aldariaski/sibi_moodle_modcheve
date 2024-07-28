@@ -115,7 +115,7 @@ function cheve_add_instance(stdClass $cheve, mod_cheve_mod_form $mform = null) {
             'personagender' => $cheve->personagender,
             'lecturemajor' => $cheve->lecturemajor,
             'filehash' => $fhash,
-            'url' => $url,
+            'url' => $url->__toString(),
 	    'asr' => 'Google',
 	    'subtitle' => '',
         );
